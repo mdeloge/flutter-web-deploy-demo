@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(MyApp());
@@ -100,6 +101,20 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            SizedBox(height: 20,),
+            InkWell(
+              child: Text('Go checkout our blogpost at https://craftworkz.be'),
+              onTap: () {
+                launch('https://craftworkz.be');
+              },
+            ),
+            SizedBox(height: 20,),
+            InkWell(
+              child: Text('Or checkout the GitHub repository at https://github.com/mdeloge/flutter-web-deploy-demo'),
+              onTap: () {
+                launch('https://github.com/mdeloge/flutter-web-deploy-demo');
+              },
+            )
           ],
         ),
       ),
