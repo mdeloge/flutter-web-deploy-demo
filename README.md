@@ -1,16 +1,8 @@
-# flutter_web_deploy_demo
+# Flutter Web - Deploying to App Engine using Cloud Build
 
-A new Flutter project.
+This respository serves as a reference for our recent blogpost about deploying your Flutter Web applications to Google App Engine, orchestrated by Google Cloud Build.
 
-## Getting Started
+You can find our blogpost here: TODO https://craftworkz.be/blog
 
-This project is a starting point for a Flutter application.
+Interested in co-creating a Flutter (Web) application with us? Contact us at info@craftworkz.be
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
